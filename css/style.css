@@ -41,3 +41,13 @@ color: black;
     display: block;
 
 }
+ul.social i{
+transform: scale(1.2);
+color: blue;
+
+}
+ul.social li:hover{
+border-right: 5px solid rgb(48, 238, 48);
+border-left: 5px solid red;
+
+}
