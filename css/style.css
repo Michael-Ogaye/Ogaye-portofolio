@@ -161,7 +161,7 @@ list-style: none;
 .ala:hover{
 
     transform: translateY(-3vw);
-    background-color: rgb(10, 10, 36);
+    
 }
 .ala h3{
     margin: 0 auto;
@@ -212,4 +212,42 @@ color: orangered;
 .ala h3{
     font-size: 2vw;
     font-family: 'Lobster', cursive;
+}
+.hob{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    background-color: rgb(8, 8, 46);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    align-items: center;
+    border-radius: 5px;
+    color: goldenrod;
+    font-size: 25px;
+    position: relative;
+    
+    
+}
+.me, .cata{
+    transform: rotateZ(20deg);
+margin-bottom: 3vw;
+line-height: 2.5vw;
+margin-left: 2vw;
+margin-top: 5vw;
+}
+.cata li{
+list-style: none;
+}
+.cata i{
+    color: greenyellow;
+    margin-right: 1vw;
+}
+.cata h5{
+    color: white;
+}
+
+.feedback{
+    background-color: #f0f0f0;
+    padding: 3vw;
+    width: 60%;
+    margin: 0 auto;
 }
