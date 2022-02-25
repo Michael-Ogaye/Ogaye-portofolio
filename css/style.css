@@ -112,6 +112,11 @@ font-family: 'Lato', sans-serif;
     transform: scale(0.7);
     border-radius: 1vw;
 }
+
+
+
+    
+
 blockquote{
     color: orangered;
 }
@@ -128,6 +133,13 @@ blockquote{
     font-family: 'Open Sans', sans-serif;
     
 }
+#aboutMe{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 #about h4{
     color: rgb(8, 8, 37);
     font-family: 'Redressed', cursive;
@@ -213,6 +225,16 @@ color: orangered;
     font-size: 2vw;
     font-family: 'Lobster', cursive;
 }
+
+.front h3{
+    color: purple;
+    margin-top: -2vw;
+    font-family: 'Redressed', cursive;
+    font-size: 2vw;
+}
+
+
+
 .hob{
     display: flex;
     flex-direction: column;
@@ -227,6 +249,12 @@ color: orangered;
     
     
 }
+.hob h4{
+    font-family: 'Lobster', cursive;  
+    color: white;
+}
+
+
 .me, .cata{
     transform: rotateZ(20deg);
 margin-bottom: 3vw;
