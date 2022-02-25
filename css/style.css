@@ -149,12 +149,19 @@ list-style: none;
     color: white;
     background-color: black;
     padding: 5vw;
-    /* background-image: url(../images/coding.jpg); */
-    background-size: cover;
+
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 1vw;
+    position: relative;
+    /* z-index: -3; */
     
     
+}
+.ala:hover{
+
+    transform: translateY(-3vw);
+    background-color: rgb(10, 10, 36);
 }
 .ala h3{
     margin: 0 auto;
@@ -184,4 +191,25 @@ color: orangered;
 }
 .it span{
     color: goldenrod;
+}
+.it a{
+    text-decoration: none;
+    color:pink;
+    
+}
+.it a:hover{
+    transform: scaleY(2);
+    color: greenyellow;
+
+}
+.it div{
+    margin: 0 auto;
+}
+.it p:hover{
+    border-left: 8px solid maroon;
+}
+
+.ala h3{
+    font-size: 2vw;
+    font-family: 'Lobster', cursive;
 }
