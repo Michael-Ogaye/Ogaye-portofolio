@@ -131,5 +131,57 @@ blockquote{
 #about h4{
     color: rgb(8, 8, 37);
     font-family: 'Redressed', cursive;
+    
+}
+.des,.front,.enginer {
+    margin-left:3vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about ul li{
+list-style: none;
+}
+.ala{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 5vw;
+    /* background-image: url(../images/coding.jpg); */
+    background-size: cover;
+    width: 70%;
+    margin: 0 auto;
+    
+    
+}
+.ala h3{
+    margin: 0 auto;
+}
+
+.it{
+    margin-bottom: 3vw;
+    border: 1px solid purple;
+    padding: 3vw;
+    margin-top: 0.8vw;
+    font-size: 1.5vw;
+    font-family: 'Lato', sans-serif;
+    border-radius: 1vw;
+}
+.it h4{
+color: orangered;
+
+}
+.it p{
+    line-height: 50px;
+    margin-left: 2vw;
+    border-left: 5px solid green;
+    margin-top: 2vw;
     margin-bottom: 1vw;
+    padding: 1vw;
+    
+}
+.it span{
+    color: goldenrod;
 }
