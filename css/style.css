@@ -250,4 +250,35 @@ list-style: none;
     padding: 3vw;
     width: 60%;
     margin: 0 auto;
+    text-align: center;
+}
+.feedback button{
+padding: 1vw;
+width: 15vw;
+color: white;
+background-color: purple;
+font-size: 1.5vw;
+border: none;
+border-radius: 1vw;
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+margin-top: 2vw;
+}
+
+.feedback p{
+    font-size: 1.5vw;
+    color: grey;
+    
+}
+.feedback button:hover{
+    transform: scale(1.5);
+}
+
+.bot{
+    justify-content: center;
+    padding: 1vw;
+}
+.ogaye{
+    color: rgb(72, 123, 218);
+    transform: translateX(40%);
+    
 }
