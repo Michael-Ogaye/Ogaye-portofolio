@@ -289,11 +289,12 @@ list-style: none;
 .feedback{
     background-color: #f0f0f0;
     padding: 3vw;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
+    overflow-x: hidden;
 }
-.feedback button{
+.feedback button#btn{
 padding: 1vw;
 width: 15vw;
 color: white;
@@ -323,7 +324,26 @@ margin-top: 2vw;
     transform: translateX(40%);
     
 }
+.green{
+    display: block;
+    padding: 1vw;
+    width: 10vw;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 1vw;
+    margin: 0 auto;
+    
+}
 
+.hl{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+    height: 20vw;
+    width: 50%;
+}
 
 
 
