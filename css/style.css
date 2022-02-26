@@ -178,7 +178,7 @@ list-style: none;
     width: 70%;
     margin: 0 auto;
     padding-bottom: 1vw;
-    position: relative;
+    /* position: relative; */
     /* z-index: -3; */
     
     
@@ -258,10 +258,17 @@ color: orangered;
     border-radius: 5px;
     color: goldenrod;
     font-size: 25px;
-    position: relative;
-    
+    /* position: relative; */
+    width: 90%;
+    margin: 0 auto;
     
 }
+
+.hob:hover{
+    transform: rotateY(50deg);
+    transition: 2s;
+}
+
 .hob h4{
     font-family: 'Lobster', cursive;  
     color: white;
@@ -321,8 +328,16 @@ margin-top: 2vw;
 }
 .ogaye{
     color: rgb(72, 123, 218);
-    transform: translateX(40%);
-    
+    /* transform: translateX(40%); */
+    font-size: clamp(12px, 16px,20px);
+    text-align: center;
+}
+
+.cen{
+
+   margin: 0 auto; 
+   max-width: 100%;
+   overflow-x: hidden;
 }
 .green{
     display: block;
@@ -361,18 +376,20 @@ margin-top: 2vw;
         flex-direction: column;
         justify-self: center;
         margin-left: -50vw;
-        background-color: white;
+    
         padding: 5vw;
         border-radius: 3vw;
     }
     .info li{
         margin-bottom: 3vw;
-        border-bottom: 1px solid green;
+    
         width: 100%;
         text-align: center;
         
         
     }
+
+    
 
 
     .banner{
@@ -422,8 +439,48 @@ margin-top: 2vw;
     }
 
     .name p, .name blockquote{
-        font-size: clamp(3vw,3.5vw,4vw);
-        line-height: 6vw;
+        font-size: 25px;
+        line-height: 10vw;
+        font-weight: bold;
     }
+    .download a{
+        margin: 0 auto;
+        margin-top: 3vw;
+        font-size: 20px;
+        padding: 1vw;
+        width: 40vw;
+        text-align: center;
+        line-height: 20px;
+
+    }
+    .ala{
+        width: 90%;
+    }
+    .it h4, .it p, .it div{
+        font-size: 20px;
+
+    }  
+    .it p{
+        border-left: 2px solid green;
+    }  
+
+
+    .it{
+        border: none;
+        margin-bottom: 10vw;
+    }
+
+    .ala h3{
+        font-size: 25px;
+        margin-bottom: 3vw;
+    }
+    .feedback p{
+        font-size: 20px;
+
+    }
+    .feedback button{
+        font-size: 15px;
+    }
+
     
 }

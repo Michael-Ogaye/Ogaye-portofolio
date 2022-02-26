@@ -14,5 +14,11 @@ btn.addEventListener('click', (e)=>{
     sb.classList.add('green');
     txt.classList.add('hl');
     form.append(txt,sb);
+    
+    sb.addEventListener('click',(e)=>{
+        e.preventDefault();
+        const mes=txt.value;
+        confirm( `You have submitted: ${mes}`);
+    })
 
 })
