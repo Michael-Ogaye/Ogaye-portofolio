@@ -1,9 +1,17 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
+body{
+
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* clip-path: polygon(100% 100%, 48% 60%, 0 100%, 0 100%, 0 0, 100% 0); */
+/* clip-path: polygon(1% 100%, 0 40%, 50% 0, 100% 43%, 100% 100%); */
 
 nav{
     background-color: #f0f0f0;
@@ -12,7 +20,7 @@ nav{
     padding: 2vw;
     position: relative;
     z-index: 5;
-    /* width: 100%; */
+    width: 100%;
     box-shadow: 5px 10px 10px;
     
 }
@@ -151,6 +159,11 @@ blockquote{
     flex-direction: column;
     justify-content: space-between;
 }
+.mec,.soft,.prob{
+    margin-bottom: 2vw;
+}
+
+
 #about ul li{
 list-style: none;
 }
@@ -309,4 +322,55 @@ margin-top: 2vw;
     color: rgb(72, 123, 218);
     transform: translateX(40%);
     
+}
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1270px){
+
+    .social{
+        display: none;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        margin-left: -50vw;
+        background-color: white;
+        padding: 5vw;
+        border-radius: 3vw;
+    }
+    .info li{
+        margin-bottom: 3vw;
+        border-bottom: 1px solid green;
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+
+
+    .banner{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .name{
+        width: 100%;
+        /* clip-path: polygon(100% 100%, 48% 60%, 0 100%, 0 100%, 0 0, 100% 0); */
+        text-align: center;
+    }
+    .pict{
+        width: 100%;
+        clip-path: polygon(0 100%, 0 40%, 50% 0, 100% 43%, 100% 100%);
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+        margin-top: 5vw;
+
+    }
 }
