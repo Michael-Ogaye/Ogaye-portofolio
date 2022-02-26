@@ -358,19 +358,52 @@ margin-top: 2vw;
     .banner{
         flex-direction: column;
         justify-content: space-between;
+        height: 200vw;
     }
     .name{
         width: 100%;
         /* clip-path: polygon(100% 100%, 48% 60%, 0 100%, 0 100%, 0 0, 100% 0); */
         text-align: center;
+        height: 45%;
     }
     .pict{
         width: 100%;
+        margin: 0 auto;
         clip-path: polygon(0 100%, 0 40%, 50% 0, 100% 43%, 100% 100%);
         background-repeat: no-repeat;
         background-size:cover;
-        
+        height: 55%;
         margin-top: 5vw;
 
     }
+
+    #about{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .front, .enginer,.des{
+        margin-bottom: 15vw;
+        border-top: 1px solid purple;
+        margin-top: 5vw;
+    }
+
+    .cata, .me{
+        transform: rotateZ(0deg);
+        line-height: 50px;
+    }
+    
+    .hob{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+        
+    }
+
+    .name p, .name blockquote{
+        font-size: clamp(3vw,3.5vw,4vw);
+        line-height: 6vw;
+    }
+    
 }
