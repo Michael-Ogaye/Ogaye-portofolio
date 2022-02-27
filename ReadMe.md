@@ -1,6 +1,6 @@
 # Portfolio
 ##### MICHAEL OGAYE
-### A description of a Quiz-board web app
+### A description of my portofolio
 ## Table of Content
 + [Description](#description)
 + [Design](Design)
@@ -14,8 +14,8 @@
 <p>This is the first edition of my portofolios website, it consists of my educational background,my profession,projects,intrest and hobbies, it provides a snap of my life what makes me jiggle and laugh,what makes me uncomfortable and what my future plans are.</p>
 
 ## Design
-The design for this website was done using pen hand paper, every layout is well designed and appealing.
-T
+The design for this website was done using pen hand paper, every layout is well designed and generally  appealing.
+
 
 ## set-up
 ### Vitals
@@ -30,7 +30,7 @@ T
 * Javascript is used for inserting the script into our page, the script makes some logical decisions and displays back the result back to the user
 ## The live link
 To get a demenonstration of the final deployment of my page please follow this link
-[live-link](https://michael-ogaye.github.io/quizboard/)
+[live-link](https://michael-ogaye.github.io/Ogaye-portofolio/)
 
   
 [Go Back to the top](#portfolio)
