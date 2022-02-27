@@ -39,16 +39,36 @@ color: black;
     text-decoration: none;
     color:black;
 }
+.list li a:hover{
+    transform: scale(1.5);
+    color: purple;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
 .logo{
-    clip-path: polygon(0 0, 91% 4%, 100% 50%, 88% 100%, 0% 100%); 
+    clip-path: circle();
     border-radius: 1vw;
     align-self: start;
+    font-size: 50px;
+    align-content: center;
 }
+.logo:hover{
+    animation: swirl 4s ease-in forwards infinite;
+}
+
 .logo img{
-    width: 5vw;
-    height: 3vw;
+    width: 8vw;
+    height: 5vw;
     display: block;
 
+}
+
+@keyframes swirl{
+    0%{transform: rotateY(180deg);}
+    50%{
+        transform: rotateY(-180deg);
+    }
 }
 ul.social i{
 transform: scale(1.2);
