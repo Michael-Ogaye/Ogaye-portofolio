@@ -22,3 +22,11 @@ btn.addEventListener('click', (e)=>{
     })
 
 })
+
+//nav toggler
+const lista =document.querySelector('.info');
+const togas =document.querySelector('.toggler')
+togas.addEventListener('click', (e)=>{
+    lista.classList.toggle('active');
+    
+})
